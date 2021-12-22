@@ -35,7 +35,7 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          targetPlatform: StandaloneWindows
+          targetPlatform: StandaloneWindows64
 
       # Output
       - uses: actions/upload-artifact@v2
